@@ -10,16 +10,38 @@ body
 {
 	font-family:'Times New Roman', Times, serif;
 	color: rgb(0, 0, 0);
-	background-color: #e4b126;
+	background-color: #050101;
 	margin-left: 75px;
 	margin-right: 75px;
+
+  
 }
 
-li
+nav
 {
 
-	color: rgb(255, 254, 254);
+  text-align: center;
 
 
+}
+
+h2
+{
+
+  text-align: center;
+
+}
+
+figure
+{
+
+  text-align: center;
+
+}
+
+main
+{
+
+color:rgb(253, 253, 253)
 
 }
