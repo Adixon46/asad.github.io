@@ -2,15 +2,15 @@
 header, footer
 {
 	text-align: center;
-	color: #F4AC45;
+	color: #030201;
 	font-weight: bold;
 }
 
 body
 {
 	font-family:'Times New Roman', Times, serif;
-	color: rgb(182, 27, 27);
-	background-color: #55b605;
+	color: rgb(0, 0, 0);
+	background-color: #e4b126;
 	margin-left: 75px;
 	margin-right: 75px;
 }
