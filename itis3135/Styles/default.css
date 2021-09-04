@@ -1,6 +1,7 @@
 
-header{
-
-color: red;
-
+header, footer
+{
+	text-align: center;
+	color: #F4AC45;
+	font-weight: bold;
 }
