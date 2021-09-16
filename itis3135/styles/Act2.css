@@ -1,10 +1,10 @@
-/*ITIS 3135 Activity 2 css file*/
+a {
 
-/*styling for the table goes here*/
-
-table
-{
-	border-collapse: collapse;
+	color: rgb(29, 248, 9);
 	
-	margin: 20px;
+	}
 
+h1{
+
+	color:red;
+}
