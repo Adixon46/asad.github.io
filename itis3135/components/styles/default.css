@@ -1,0 +1,54 @@
+
+header, footer
+{
+	text-align: center;
+	color: #030201;
+	font-weight: bold;
+}
+
+body
+{
+	font-family:'Courier New', Courier, monospace;
+	color: rgb(0, 0, 0);
+	background-color: #000000;
+	margin-left: 75px;
+	margin-right: 75px;
+
+  
+}
+
+nav
+{
+
+  text-align: center;
+
+
+}
+
+h2
+{
+
+  text-align: center;
+
+}
+
+figure
+{
+
+  text-align: center;
+
+}
+
+main
+{
+
+color:rgb(41, 248, 0)
+
+}
+
+a {
+
+color: rgb(3, 79, 243);
+
+}
+
