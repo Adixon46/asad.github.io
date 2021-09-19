@@ -1,0 +1,48 @@
+
+
+h1{
+
+font-family: sans-serif;
+    color:#48cae4;
+text-align: center;
+}
+
+body{
+
+
+
+    background-color: #03045e;
+}
+
+
+h2{
+
+    font-family: sans-serif;
+    color:#48cae4;
+    text-align: center;
+
+}
+
+p{
+
+    font-family: sans-serif;
+    color:#48cae4;
+text-align: center;
+}
+
+h3{
+
+    font-family: sans-serif;
+    color:#48cae4;
+    text-align: center;
+
+}
+
+
+ul{
+
+text-align: center;
+color:snow;
+list-style-position: inside;
+list-style-type:decimal-leading-zero;
+}
