@@ -12,4 +12,7 @@ console.log(username);
 var mood = prompt("And how are you feeling today");
 console.log(mood);
 
-document.getElementById("demo").innerHTML ="this is " + username;
+function pick(){
+
+document.getElementById("demo").innerHTML ="this is ";
+}
