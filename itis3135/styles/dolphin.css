@@ -52,6 +52,11 @@ list-style-type:decimal-leading-zero;
 
 button{
 
-    text-align: center;
+    align-items: center;
 
+}
+
+demo{
+
+    color: blanchedalmond;
 }
