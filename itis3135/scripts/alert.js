@@ -1,5 +1,5 @@
 function alert1(){
 
-console.log("Hello")
+alert("Hello")
 
 }
