@@ -16,4 +16,6 @@ var currentDate = new Date();
     
 var date = (currentDate.getMonth() +1 ) + "/" + currentDate.getDate() + "/" + currentDate.getFullYear();
 
+var currentTime = new Date();
 
+var time = currentTime.getUTCHours() + ":" + currentTime.getUTCMinutes()
