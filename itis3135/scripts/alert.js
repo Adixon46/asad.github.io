@@ -6,5 +6,6 @@ alert("Hey my script is running")
 
 function name(){
 
-document.write("Test")
+    document.write(5 + 6)
+
 }
