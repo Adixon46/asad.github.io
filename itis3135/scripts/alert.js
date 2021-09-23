@@ -18,4 +18,4 @@ var date = (currentDate.getMonth() +1 ) + "/" + currentDate.getDate() + "/" + cu
 
 var currentTime = new Date();
 
-var time = currentTime.getUTCHours() + ":" + currentTime.getUTCMinutes()
+var time = currentTime.getHours() + ":" + currentTime.getUTCMinutes()
