@@ -19,3 +19,18 @@ var date = (currentDate.getMonth() +1 ) + "/" + currentDate.getDate() + "/" + cu
 var currentTime = new Date();
 
 var time = currentTime.getHours() + ":" + currentTime.getUTCMinutes()
+
+
+
+
+
+
+function math(){
+
+var Num1 = prompt("First number");
+var Num2 = prompt("Second number");
+
+var result = Num1 + Num2;
+return result;
+
+}
