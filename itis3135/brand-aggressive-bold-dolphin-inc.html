@@ -68,21 +68,27 @@
 
 <script> document.getElementById("user").innerHTML = "The Aggressively Bold Dolphin INC welcomes you, " + username + "! We're glad you are doing " + mood + "."</script>
 
-<script> function Add(Num1 , Num2){
+
+<button id = "Add" onclick="Add()" > Add </button>
+<p id="Add">  </p>
+
+<script> function Add(){
     
+Num1 = parseInt(prompt("enter a number"))
+Num2 = parseInt(prompt("enter a second number"))
 
-
-alert(Num1 + Num2 + " This is result")
+Num3 = Num1 + Num2;
+document.getElementById("Add").innerHTML = Num3;
 
 }
     </script>
 
 
 
-<button id = "Add" onclick="Add(prompt(), prompt())" > Add </button>
 
 
-<p id="Add">  </p>
+
+
 
 
 
