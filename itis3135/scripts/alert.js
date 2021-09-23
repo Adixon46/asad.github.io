@@ -1,5 +1,5 @@
 function alert1(){
 
-alert("Hello")
+alert("Hey my script is running")
 
 }
