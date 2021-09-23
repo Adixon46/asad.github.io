@@ -25,7 +25,7 @@ var time = currentTime.getHours() + ":" + currentTime.getUTCMinutes()
 
 
 
-function math(){
+function maths(){
 
 var Num1 = prompt("First number");
 var Num2 = prompt("Second number");
