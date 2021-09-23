@@ -52,8 +52,10 @@ list-style-type:decimal-leading-zero;
 
 button{
 
-    align-items: center;
-
+    text-align: center;
+    margin: auto;
+    display: flex;
+    display:grid
 }
 
 demo{
