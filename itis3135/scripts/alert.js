@@ -18,20 +18,11 @@ var date = (currentDate.getMonth() +1 ) + "/" + currentDate.getDate() + "/" + cu
 
 var currentTime = new Date();
 
-var time = currentTime.getHours() + ":" + currentTime.getUTCMinutes()
+var time = currentTime.getHours() + ":" + currentTime.getHours()
 
 
 
 
 
 
-function maths(){
 
-var Num1 = prompt("First number");
-console.log(Num1);
-var Num2 = prompt("Second number");
-console.log(Num2);
-var result = Num1 + Num2;
-return result;
-
-}
