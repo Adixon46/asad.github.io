@@ -68,10 +68,9 @@
 
 <script> document.getElementById("user").innerHTML = "The Aggressively Bold Dolphin INC welcomes you, " + username + "! We're glad you are doing " + mood + "."</script>
 
-<script> function Add(){
+<script> function Add(Num1 , Num2){
     
-var Num1 = prompt("Enter first number");
-var Num2 = prompt("Enter second number");
+
 
 alert(Num1 + Num2 + " This is result")
 
@@ -80,7 +79,7 @@ alert(Num1 + Num2 + " This is result")
 
 
 
-<button id = "Add" onclick="Add()" > Add </button>
+<button id = "Add" onclick="Add(prompt(), prompt())" > Add </button>
 
 
 <p id="Add">  </p>
