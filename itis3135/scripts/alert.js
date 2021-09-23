@@ -12,6 +12,8 @@ console.log(username);
 var mood = prompt("And how are you feeling today");
 console.log(mood);
 
-
+var currentDate = new Date();
+    
+var date = currentDate.getFullYear() + "-" + currentDate.getMonth() + "-" + currentDate.getDate();
 
 
