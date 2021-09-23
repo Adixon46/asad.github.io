@@ -29,7 +29,7 @@
 <p>Aggressive dolphin is know worldwide for its reliable diving and water sports equipment. Whether your a surfer a fisherman or a deep sea dive we have you covered. We guarantee 
     the upmost excellence and our record speaks for itself. It all started on a hot day in 1974 when founder Jason Hawthorn was down to his last amount of cash. He wanted to buy a surf board but 
     nothing until that point was able to keep up with his output and aggression on the waves. Rather than spend money on another board he decided to take the design in his own hands and from there its history.
-    <img src="images/Dolphin-logo.svg (httpscommons.wikimedia.org).png" width="50px" height="50px" alt= "This is the logo" />
+    
 </p>
 
 <h3> Our Record Speaks For Itself</h3>
@@ -59,7 +59,13 @@
 <br>
 
 
-
+<script>function add_Img(){
+    
+    var img = document.createElement("img");
+    img.src = "images/Dolphin-logo.svg (httpscommons.wikimedia.org).png";
+    document.getElementById("user").appendChild("img")
+} 
+    </script>
 
 <p id="date1">  </p>
 
@@ -69,6 +75,8 @@
 
 <script> document.getElementById("user").innerHTML = "The Aggressively Bold Dolphin INC welcomes you, " + username + "! We're glad you are doing " + mood + "."
 </script>
+
+
 
 
 <button id = "Add" onclick="Add()" > Add </button>
