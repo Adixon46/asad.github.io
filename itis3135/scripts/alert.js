@@ -4,4 +4,4 @@ alert("Hey my script is running")
 
 }
 
-prompt();
+var name = prompt();
