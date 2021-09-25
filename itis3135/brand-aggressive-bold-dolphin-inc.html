@@ -118,8 +118,10 @@ console.log(result);
 </script>
 
 
-<button id = "quanity" onclick= "quanity()"> Item quanity</button>
+<button id = "quanity" onclick= "quanity()"> Item quanity
 <input type = "text" id ="quanity" value ="0"> </input>
+
+</button>
 <p id = "quanity">   </p> 
 
 <script>
@@ -128,7 +130,7 @@ var i = 0;
 function quanity(){
     
 i++;
-document.getElementById("quanity").i = i;
+document.getElementById("quanity").innerHTML = i;
 console.log(i);
 
    
