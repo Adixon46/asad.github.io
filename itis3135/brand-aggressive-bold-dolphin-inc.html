@@ -126,10 +126,10 @@ document.getElementById("tax").innerHTML = result;
 
 function quanity(){
 
-var initialize = 0;
+var initialize = parseInt(document.getElementById("quanity").initialize);
 
-
-initialize += 1;
+initialize = isNaN(initialize) ? 0 : initialize;
+initialize++;
 
 
 document.getElementById("quanity").innerHTML = initialize;
