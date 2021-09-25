@@ -97,6 +97,23 @@ document.getElementById("Add").innerHTML = Num3;
     </script>
 
 
+<button id = "tax"  onclick= "tax()">Tax cal</button>
+<p id = "tax">   </p>
+
+
+<script>
+
+
+
+var tax = 0.075;
+var Num1 = parseInt(prompt("enter a number"))
+
+var saleTax = Num1 * tax;
+
+result = saleTax + Num1;
+
+document.getElementById("tax").innerHTML = result;
+</script>
 
 
 
