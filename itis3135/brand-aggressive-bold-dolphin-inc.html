@@ -68,10 +68,13 @@
 <p id="user">  </p>
 
 <script> 
+var dolphin =  document.createElement("img");
+dolphin.src = "images/Dolphin-logo.svg (httpscommons.wikimedia.org).png";
+document.body.appendChild(dolphin)
 
  
 
- document.getElementById("user").innerHTML = "The Aggressively Bold Dolphin INC welcomes you, " + username + "! We're glad you are doing " + mood + "." 
+ document.getElementById("user").innerHTML = "The Aggressively Bold Dolphin INC welcomes you, " + username + "! We're glad you are doing "  + mood + dolphin +  "." 
 
 </script>
 
