@@ -1,8 +1,8 @@
 
 
-const calculator = document.querySelector(".Calculator")
+const calculator = document.querySelector(".calculator")
 
-const keys = Calculator.querySelector(".cal_keys")
+const keys = calculator.querySelector(".cal_keys")
 
 const key = e.target;
 const action = key.dataset.action
