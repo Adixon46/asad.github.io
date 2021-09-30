@@ -17,7 +17,8 @@
 .cal_display{
 
 padding: 0.50em 0.50em;
-color: rgb(0, 0, 0);
+color: rgb(255, 249, 249);
+background-color: rgb(10, 10, 9);
 
 }
 .calculator{
