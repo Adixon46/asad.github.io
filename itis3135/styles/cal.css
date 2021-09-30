@@ -16,7 +16,8 @@
 
 .cal_display{
 
-padding: 5em 2em
+padding: 0.50em 0.50em;
+color: rgb(0, 0, 0);
 
 }
 .calculator{
