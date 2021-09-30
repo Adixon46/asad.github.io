@@ -1,31 +1,3 @@
 
 
 
-.cal_keys{
-
-    grid-template-columns: repeat(4 , 1fr);
-    display: grid; 
-    grid-gap: 1px;
-}
-
-.key_operator{
-
-
-
-}
-
-.cal_display{
-
-padding: 0.50em 0.50em;
-color: rgb(255, 249, 249);
-background-color: rgb(10, 10, 9);
-
-}
-
-
-.calculator{
-
-}
-
-
-
