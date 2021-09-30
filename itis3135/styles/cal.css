@@ -5,7 +5,7 @@
 
     grid-template-columns: repeat(4 , 1fr);
     display: grid; 
-
+    grid-gap: 1px;
 }
 
 .key_operator{
