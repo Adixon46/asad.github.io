@@ -85,7 +85,7 @@ compute(){
 
 refreshDisplay(){
 
-    this.currentOp.innerText = this.currentOp
+    this.currentChoice.innerText = this.currentOp
 
 }
 
