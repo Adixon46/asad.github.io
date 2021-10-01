@@ -83,7 +83,7 @@ compute(){
 
 refreshDisplay(){
 
-
+    this.currentOperandTextElement.innerText = this.currentOperand
 
 }
 
