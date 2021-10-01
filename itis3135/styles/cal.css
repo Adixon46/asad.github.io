@@ -17,8 +17,7 @@ grid-template-rows: repeat(5 , 100);
     align-items: flex-end;
     justify-content: space-around;
     flex-direction: column;
-    padding: 10px;
-    word-wrap: break-word;
-    word-break: break-all;
+   padding: 10px;
+ 
     color: black;
   }
