@@ -26,6 +26,8 @@ this.clear();
 
 const cal = new cal(previousChoice, currentChoice)
 
+
+
 }
 
 
@@ -54,17 +56,17 @@ delete(){
 
 }
 
-append(){
-numbersChoice.forEach(button => {
-button.addEventListener('click' , () => {
-cal.append(button.innerText)
-cal.refreshDisplay()
+append(number){
+
+
+if(number === '.' && this.currentOp.includes('.'))
+
+return
+this.currentOp = this.currentOp.toString() + number.toString()
 
 
 
-})
 
-})
 
 
 }
@@ -87,4 +89,15 @@ refreshDisplay(){
 
 }
 
+
 }
+
+
+numbersChoice.forEach(button => {
+    button.addEventListener('click' , () => {
+    cal.append(button.innerText)
+    cal.refreshDisplay()
+
+    })
+})
+    
