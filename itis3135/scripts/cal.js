@@ -13,12 +13,12 @@ const previousChoice = document.querySelector('[data-previous-op]')
 
 const currentChoice = document.querySelector('[data-current-op]')
 
-const calculator = new cal(previousChoice, currentChoice){
+const calculator = new cal(previousChoice, currentChoice)
 
 
 
 
-}
+
 
 
 class cal{constructor(previousChoice, currentChoice){
