@@ -15,7 +15,7 @@ const previousChoice = document.querySelector('[data-previous-op]')
 
 const currentChoice = document.querySelector('[data-current-op]')
 
-const cal = new cal(previousChoice, currentChoice)
+const calculator = new cal(previousChoice, currentChoice)
 
 class cal{constructor(previousChoice, currentChoice){
 
@@ -23,12 +23,12 @@ this.previousChoice = previousChoice;
 this.currentChoice = currentChoice;
 this.clear();
 
-
-
-
-
-
 }
+
+
+
+
+
 
 
 
@@ -100,4 +100,5 @@ numbersChoice.forEach(button => {
 
     })
 })
-    
+
+
