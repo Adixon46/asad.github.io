@@ -28,7 +28,7 @@ addNumber(number){
 
 this.current = number
 console.log(this.current)
-
+refreshDisplay()
 }
 
 pickOperation(operation){
