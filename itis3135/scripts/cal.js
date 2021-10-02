@@ -64,7 +64,7 @@ const equalsButton = document.querySelector('[data-equals]')
 
 const deleteButton = document.querySelector('[data-delete]')
 
-const clearButton = document.querySelector('[data-clear]')
+const clearButton = document.querySelector('[data-clear-op]')
 
 const previousOperation = document.querySelector('[data-previous-op]')
 
