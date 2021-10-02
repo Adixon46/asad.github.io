@@ -92,9 +92,11 @@ function shapes(){
 
  var shape = parseInt(prompt('The bold dolphin request that you input a number '))
 
-while(shape < 0 || shape > 10){
+if(shape < 0 || shape > 10){
     
-alert('That was and invalid input')
+
+shape = parseInt(prompt('That was and invalid input please enter a new number'))
+
 }
 
     
