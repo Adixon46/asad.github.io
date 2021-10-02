@@ -15,7 +15,7 @@ clear(){
     this.current = ''
     this.previous = ''
     this.operation = undefined
-console.log(clear())
+
 }
 
 delete(){
@@ -27,7 +27,7 @@ delete(){
 addNumber(number){
 
 this.current = this.current.toString() + number.toString
-console.log(this.current)
+console.log(number.toString)
 
 }
 
@@ -47,7 +47,7 @@ calculate(){
 
 refreshDisplay(){
 
-this.currentOperation.innerText = this.current
+this.currentOperation.innerText 
 }
 
 
