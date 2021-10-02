@@ -12,9 +12,9 @@ this.clear()
 
 clear(){
 
-    this.currentop = ''
-    this.previousop = ''
-    this.operation1 = undefined
+    this.current = ''
+    this.previous = ''
+    this.operation = undefined
 
 }
 
@@ -26,8 +26,8 @@ delete(){
 
 addNumber(number){
 
-this.currentop = number;
-console.log(number)
+this.current = this.current.toString() + number.toString
+console.log(this.current)
 
 }
 
@@ -47,7 +47,7 @@ calculate(){
 
 refreshDisplay(){
 
-this.currentOperation.innerText = this.currentop
+this.currentOperation.innerText = this.current
 }
 
 
