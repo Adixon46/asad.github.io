@@ -9,9 +9,9 @@ const deleteButton = document.querySelector('[data-delete]')
 
 const clearButton = document.querySelector('[data-clear]')
 
-const previousOperation = document.querySelector('[data-previous]')
+const previousOperation = document.querySelector('[data-previous-op]')
 
-const currentOperation = document.querySelector('[data-current]')
+const currentOperation = document.querySelector('[data-current-op]')
 
 class Calculator{
 
