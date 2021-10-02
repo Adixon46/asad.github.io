@@ -46,6 +46,38 @@ if(this.previousOperation !== ''){
 
 calculate(){
 
+let comp
+const prev = parseFloat(this.previous)
+const curr = parseFloat(this.current)
+
+if(isNaN(prev) || isNaN(curr))return
+
+switch(this.operation){
+
+case '+':
+    comp = prev + curr;
+    break
+
+case '-': 
+    comp = prev - curr
+    break
+
+    case '*': 
+    comp = prev * curr
+    break
+
+case '÷': 
+    comp = prev / curr
+    break
+    
+default:
+     return
+  
+}
+
+this.current = comp
+this.operation = undefined 
+this.previous = ''
 
 
 
@@ -97,4 +129,12 @@ operationsButton.forEach(button =>{
     cal.refreshDisplay()
 
     })
+})
+
+equalsButton.addEventListener('click' , button => {
+
+cal.calculate()
+cal.refreshDisplay()
+
+
 })
