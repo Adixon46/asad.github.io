@@ -24,7 +24,7 @@ delete(){
 }
 
 addNumber(number){
-if(number === '.')return
+if(this.operation.includes('.') )return
 this.current = this.current.toString() + number.toString()
 console.log(this.current)
 
