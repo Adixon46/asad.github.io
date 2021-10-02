@@ -26,7 +26,7 @@ delete(){
 
 addNumber(number){
 
-this.current = number;
+this.current1 = number;
 
 }
 
