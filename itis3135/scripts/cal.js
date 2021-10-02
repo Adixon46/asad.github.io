@@ -26,7 +26,7 @@ delete(){
 
 addNumber(number){
 
-this.current = number;
+this.currentop = number;
 console.log(number)
 
 }
