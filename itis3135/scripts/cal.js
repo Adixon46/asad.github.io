@@ -12,8 +12,8 @@ this.clear()
 
 clear(){
 
-    this.current = ''
-    this.previous1 = ''
+    this.current = 1
+    this.previous = ''
     this.operation1 = undefined
 
 }
