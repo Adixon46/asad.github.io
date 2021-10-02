@@ -15,7 +15,7 @@ clear(){
     this.current = ''
     this.previous = ''
     this.operation = undefined
-
+console.log(clear())
 }
 
 delete(){
@@ -47,7 +47,7 @@ calculate(){
 
 refreshDisplay(){
 
-this.currentOperation = this.current
+this.currentOperation.innerText = this.current
 }
 
 
