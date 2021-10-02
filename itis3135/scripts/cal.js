@@ -4,17 +4,17 @@ class Calculator{
 
 constructor(previousOperationTextElement,currentOperationTextElement){
 
-this.previousOperationTextElement = previousOperationTextElement;
-this.currentOperationTextElement = currentOperationTextElement;
-this.clear();
+this.previousOperationTextElement = previousOperationTextElement
+this.currentOperationTextElement = currentOperationTextElement
+this.clear()
 
     }
 
 clear(){
 
-    this.current1 = '';
-    this.previous1 = '';
-    this.operation1 = undefined;
+    this.current1 = ''
+    this.previous1 = ''
+    this.operation1 = undefined
 
 }
 
@@ -71,7 +71,7 @@ const previousOperation = document.querySelector('[data-previous]')
 
 const currentOperation = document.querySelector('[data-current]')
 
-const calculator = new Calculator(previousOperationTextElement , currentOperationTextElement)
+const cal = new Calculator(previousOperationTextElement , currentOperationTextElement)
 
 numbersButton.forEach(button =>{
     button.addEventListener('click' , () =>{
