@@ -2,10 +2,10 @@
 
 class Calculator{
 
-constructor(previousOperation,currentOperation){
+constructor(previousOperationTextElement,currentOperationTextElement){
 
-this.previousOperation = previousOperation;
-this.currentOperation = currentOperation;
+this.previousOperationTextElement = previousOperationTextElement;
+this.currentOperationTextElement = currentOperationTextElement;
 this.clear();
 
     }
@@ -46,7 +46,7 @@ calculate(){
 
 refreshDisplay(){
 
-this.currentOperation.innerText = this.current
+this.currentOperationTextElement.innerText = this.current
 
 }
 
