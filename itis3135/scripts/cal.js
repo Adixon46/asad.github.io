@@ -24,7 +24,7 @@ delete(){
 }
 
 addNumber(number){
-if(number ==='.')return
+if(this.current.includes('.') && number ==='.')return
 this.current = this.current.toString() + number.toString()
 console.log(this.current)
 
@@ -83,3 +83,10 @@ numbersButton.forEach(button =>{
     })
 })
 
+operationsButton.forEach(button =>{
+    button.addEventListener('click' , () =>{
+    cal.addNumber(button.innerText)
+    cal.refreshDisplay()
+
+    })
+})
