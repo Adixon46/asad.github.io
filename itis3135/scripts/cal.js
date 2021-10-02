@@ -37,7 +37,7 @@ if(this.currentOperation === '') return
    // calculate()
 
 //}
-    //this.operation = operation
+    this.operation = operation
     //this.previous = this.current
     //this.current = ''
 
