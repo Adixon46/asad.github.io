@@ -78,7 +78,7 @@ default:
 this.current = comp
 this.operation = undefined 
 this.previous = ''
-this.clear()
+
 
 
 }
@@ -136,6 +136,14 @@ equalsButton.addEventListener('click' , button => {
 
 cal.calculate()
 cal.refreshDisplay()
+
+
+})
+
+
+clearButton.addEventListener('click' , button =>{
+
+cal.clear()
 
 
 })
