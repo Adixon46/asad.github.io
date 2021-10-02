@@ -31,8 +31,15 @@ console.log(this.current)
 }
 
 pickOperation(operation){
+if(this.currentOperation === '') return
+if(this.previousOperation !== ''){
 
+    calculate()
 
+}
+    //this.operation = operation
+    //this.previous = this.current
+    //this.current = ''
 
 
 }
@@ -85,7 +92,7 @@ numbersButton.forEach(button =>{
 
 operationsButton.forEach(button =>{
     button.addEventListener('click' , () =>{
-    cal.addNumber(button.innerText)
+    cal.pickOperation(button.innerText)
     cal.refreshDisplay()
 
     })
