@@ -67,9 +67,9 @@ const deleteButton = document.querySelector('[data-delete]')
 
 const clearButton = document.querySelector('[data-clear]')
 
-const previousOperation = document.querySelector('[data-previous]')
+const previousOperationTextElement = document.querySelector('[data-previous]')
 
-const currentOperation = document.querySelector('[data-current]')
+const currentOperationTextElement = document.querySelector('[data-current]')
 
 const cal = new Calculator(previousOperationTextElement ,currentOperationTextElement)
 
