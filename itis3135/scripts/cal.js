@@ -27,6 +27,7 @@ delete(){
 addNumber(number){
 
 this.current = number;
+console.log(number)
 
 }
 
