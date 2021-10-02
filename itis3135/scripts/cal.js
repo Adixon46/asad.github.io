@@ -26,8 +26,8 @@ delete(){
 
 addNumber(number){
 
-this.current = this.current.toString() + number.toString
-console.log(number)
+this.current = number
+console.log(this.current)
 
 }
 
@@ -47,7 +47,7 @@ calculate(){
 
 refreshDisplay(){
 
-this.currentOperation.innerText = this.current
+//this.currentOperation.innerText = this.current
 }
 
 
