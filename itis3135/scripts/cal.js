@@ -79,7 +79,7 @@ this.current = comp
 this.operation = undefined 
 this.previous = ''
 
-
+this.refreshDisplay()
 
 }
 
