@@ -5,7 +5,7 @@ class Calculator{
 constructor(previousOperation,currentOperation){
 
 this.previousOperation = previousOperation
-this.currentOperation = 1
+this.currentOperation = currentOperation
 this.clear()
 
     }
@@ -47,7 +47,7 @@ calculate(){
 
 refreshDisplay(){
 
-this.currentOperation.innerText = 1
+this.currentOperation.innerText = this.current.toString()
 }
 
 
