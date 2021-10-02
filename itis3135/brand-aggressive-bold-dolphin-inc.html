@@ -5,191 +5,199 @@
 
 
 <!-- https://coolors.co/palettes/trending color scheme used-->
-    <head>
-        <meta charset="UTF-8">
-        <link href="styles/dolphin.css" rel="stylesheet" type="text/css" >
-        <title>Brand</title>
-        <script src="scripts/alert.js"></script>
-        <script src="scripts/dolpin.js"></script>
-        <button onclick="alert1()" > Alert </button>
-    </head>
-    
+
+<head>
+    <meta charset="UTF-8">
+    <link href="styles/dolphin.css" rel="stylesheet" type="text/css">
+    <title>Brand</title>
+    <script src="scripts/alert.js"></script>
+    <script src="scripts/dolpin.js"></script>
+    <button onclick="alert1()"> Alert </button>
+</head>
 
 
-    <h1>Aggressively Bold Dolphin INC
-        <img src="images/Dolphin-logo.svg (httpscommons.wikimedia.org).png" width="50px" height="50px" alt= "This is the logo" />
-    </h1>
 
-        
+<h1>Aggressively Bold Dolphin INC
+    <img src="images/Dolphin-logo.svg (httpscommons.wikimedia.org).png" width="50px" height="50px"
+        alt="This is the logo" />
+</h1>
+
+
 
 
 <main>
 
     <h2>Brand Page</h2>
 
-<p>Aggressive dolphin is know worldwide for its reliable diving and water sports equipment. Whether your a surfer a fisherman or a deep sea dive we have you covered. We guarantee 
-    the upmost excellence and our record speaks for itself. It all started on a hot day in 1974 when founder Jason Hawthorn was down to his last amount of cash. He wanted to buy a surf board but 
-    nothing until that point was able to keep up with his output and aggression on the waves. Rather than spend money on another board he decided to take the design in his own hands and from there its history.
-    
-</p>
+    <p>Aggressive dolphin is know worldwide for its reliable diving and water sports equipment. Whether your a surfer a
+        fisherman or a deep sea dive we have you covered. We guarantee
+        the upmost excellence and our record speaks for itself. It all started on a hot day in 1974 when founder Jason
+        Hawthorn was down to his last amount of cash. He wanted to buy a surf board but
+        nothing until that point was able to keep up with his output and aggression on the waves. Rather than spend
+        money on another board he decided to take the design in his own hands and from there its history.
 
-<h3> Our Record Speaks For Itself</h3>
+    </p>
 
-<ul>
+    <h3> Our Record Speaks For Itself</h3>
 
-<li>Reliable: never break under pressure</li>
-<li>Innovative: Changing the outdoor game since 1974</li>
-<li>Proven: Athletes across the world swear by our name </li>
-<li>Bold: Design that defeats the competition</li>
-<li>Aggressive: Let loose with everything you got</li>
+    <ul>
 
+        <li>Reliable: never break under pressure</li>
+        <li>Innovative: Changing the outdoor game since 1974</li>
+        <li>Proven: Athletes across the world swear by our name </li>
+        <li>Bold: Design that defeats the competition</li>
+        <li>Aggressive: Let loose with everything you got</li>
 
 
 
 
-</ul>
 
+    </ul>
 
-<p>For customer care please refer to our help services</p>
 
-<p>Email: Support.bolddolp@gmail.com</p>
+    <p>For customer care please refer to our help services</p>
 
-<p>phone: 888-777-9999</p>
+    <p>Email: Support.bolddolp@gmail.com</p>
 
-<p>Address: 7777 your insane lane</p>
-<br>
+    <p>phone: 888-777-9999</p>
 
+    <p>Address: 7777 your insane lane</p>
+    <br>
 
 
 
-<p id="date1">  </p>
 
-<script> document.getElementById("date1").innerHTML ="Today is " + date + " , and the time is " + time;</script>
+    <p id="date1"> </p>
 
-<p id="user">  </p>
+    <script> document.getElementById("date1").innerHTML = "Today is " + date + " , and the time is " + time;</script>
 
-<script> 
+    <p id="user"> </p>
 
+    <script>
 
 
- 
 
- document.getElementById("user").innerHTML = "The Aggressively Bold Dolphin INC welcomes you, " + username + "! We're glad you are doing "  + mood +  "."
 
 
-</script>
+        document.getElementById("user").innerHTML = "The Aggressively Bold Dolphin INC welcomes you, " + username + "! We're glad you are doing " + mood + "."
 
 
-
-
-
-<button id = "shapes" onclick="shapes()">Shapes</button>
-<p id= "shapes"></p> 
-
-<script>
-
-
-function shapes(){
-
-
- var shape = parseInt(prompt('The bold dolphin request that you input a number anywhere from 0 to 10'))
-
-while(shape < 0 || shape > 10 || isNaN(shape)){
-    
-
-shape = parseInt(prompt('That was an invalid input please enter a new number 0 to 10'))
-
-
-
-}
-
-getShape(shape)
-
-
-}
-
-
-function getShape(number){
-
-if(number === 1){
-
-alert('This a shape')
-
-}
-
-
-
-
-   
-
-
-
-
-
- </script>
-
-
-
-
-<button id = "Add" onclick="Add()" > Calculate cart</button>
-<p id="Add">  </p>
-
-<script> function Add(){
-    
-Num1 = parseInt(prompt("enter a number"))
-Num2 = parseInt(prompt("enter a second number"))
-
-Num3 = Num1 + Num2;
-document.getElementById("Add").innerHTML = Num3;
-console.log(Num3);
-}
     </script>
 
 
-<button id = "tax"  onclick= "tax()">Tax cal</button>
-<p id = "tax">   </p>
 
 
-<script>
 
-function tax(){
+    <button id="shapes" onclick="shapes()">Shapes</button>
+    <p id="shapes"></p>
 
-var tax = 0.075;
-var Num1 = parseInt(prompt("enter a number"))
-
-var saleTax = Num1 * tax;
-
-result = saleTax + Num1;
-
-document.getElementById("tax").innerHTML = result;
-console.log(result);
-}
-</script>
+    <script>
 
 
-<button id = "quanity" onclick= "quanity()"> Item quanity
-<input type = "text" id ="quanity" value ="0"> </input>
+        function shapes() {
 
-</button>
-<p id = "quanity">   </p> 
 
-<script>
+            var shape = parseInt(prompt('The bold dolphin request that you input a number anywhere from 0 to 10'))
 
-var i = 0;
-function quanity(){
-    
-i++;
-document.getElementById("quanity").innerHTML = i;
-console.log(i);
 
-   
+            validEntry(shape)
 
-}
+        }
+
+        getShape(shape)
 
 
 
 
-</script>
+
+        function getShape(number) {
+
+            if (number === 1) {
+
+                alert('This a shape')
+
+        }
+
+
+            function validEntry(number) {
+
+                while (number < 0 || number > 10 || isNaN(number)) {
+
+
+                    number = parseInt(prompt('That was an invalid input please enter a new number 0 to 10'))
+        }
+
+        }
+
+        }
+
+
+
+
+    </script>
+
+
+
+
+    <button id="Add" onclick="Add()"> Calculate cart</button>
+    <p id="Add"> </p>
+
+    <script> function Add() {
+
+            Num1 = parseInt(prompt("enter a number"))
+            Num2 = parseInt(prompt("enter a second number"))
+
+            Num3 = Num1 + Num2;
+            document.getElementById("Add").innerHTML = Num3;
+            console.log(Num3);
+        }
+    </script>
+
+
+    <button id="tax" onclick="tax()">Tax cal</button>
+    <p id="tax"> </p>
+
+
+    <script>
+
+        function tax() {
+
+            var tax = 0.075;
+            var Num1 = parseInt(prompt("enter a number"))
+
+            var saleTax = Num1 * tax;
+
+            result = saleTax + Num1;
+
+            document.getElementById("tax").innerHTML = result;
+            console.log(result);
+        }
+    </script>
+
+
+    <button id="quanity" onclick="quanity()"> Item quanity
+        <input type="text" id="quanity" value="0"> </input>
+
+    </button>
+    <p id="quanity"> </p>
+
+    <script>
+
+        var i = 0;
+        function quanity() {
+
+            i++;
+            document.getElementById("quanity").innerHTML = i;
+            console.log(i);
+
+
+
+        }
+
+
+
+
+    </script>
 
 
 
@@ -210,7 +218,7 @@ console.log(i);
 
 <footer>
     <p>Aggressively Bold Dolphin INC</p>
-   
+
 
     <a href="https://validator.w3.org/check?uri=referer">
         <img src="images/button-valid-html5.gif" width="88" height="31" alt="Link to HTML validator"></a>
