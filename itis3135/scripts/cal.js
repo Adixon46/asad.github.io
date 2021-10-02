@@ -32,11 +32,11 @@ console.log(this.current)
 
 pickOperation(operation){
 if(this.currentOperation === '') return
-if(this.previousOperation !== ''){
+//if(this.previousOperation !== ''){
 
-    calculate()
+   // calculate()
 
-}
+//}
     //this.operation = operation
     //this.previous = this.current
     //this.current = ''
