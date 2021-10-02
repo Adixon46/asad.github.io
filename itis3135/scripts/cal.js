@@ -19,6 +19,7 @@ clear(){
 
 delete(){
 
+    this.current = this.current.toString().slice(0 , -1)
 
 
 }
@@ -79,7 +80,7 @@ this.current = comp
 this.operation = undefined 
 this.previous = ''
 
-this.refreshDisplay()
+
 
 }
 
@@ -145,5 +146,14 @@ clearButton.addEventListener('click' , button =>{
 
 cal.clear()
 cal.refreshDisplay()
+
+})
+
+deleteButton.addEventListener('click' , button =>{
+
+cal.delete()
+cal.refreshDisplay()
+
+
 
 })
