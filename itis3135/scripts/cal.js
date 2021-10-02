@@ -71,7 +71,7 @@ const previousOperation = document.querySelector('[data-previous]')
 
 const currentOperation = document.querySelector('[data-current]')
 
-const cal = new Calculator(previousOperationTextElement , currentOperationTextElement)
+const calculator = new Calculator(previousOperationTextElement , currentOperationTextElement)
 
 numbersButton.forEach(button =>{
     button.addEventListener('click' , () =>{
