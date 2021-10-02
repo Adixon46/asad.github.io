@@ -74,11 +74,5 @@ const currentOperation = document.querySelector('[data-current]')
 
 const cal = new Calculator(previousOperation ,currentOperation)
 
-numbersButton.forEach(button =>{
-    button.addEventListener('click' , () =>{
-    cal.addNumber(button.innerText)
-    cal.refreshDisplay()
 
-    })
-})
 
