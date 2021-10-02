@@ -2,7 +2,7 @@
 
 class Calculator{
 
-constructor(previousOperationTextELement,currentOperationTextElement){
+constructor(previousOperationTextELement, currentOperationTextElement){
 
 this.previousOperationTextELement = previousOperationTextELement
 this.currentOperationTextElement = currentOperationTextElement
@@ -68,9 +68,9 @@ const deleteButton = document.querySelector('[data-delete]')
 
 const clearButton = document.querySelector('[data-clear]')
 
-const previousOperation = document.querySelector('[data-previous]')
+const previousOperationTextELement = document.querySelector('[data-previous]')
 
-const currentOperation = document.querySelector('[data-current]')
+const currentOperationTextElement = document.querySelector('[data-current]')
 
 const cal = new Calculator(previousOperationTextELement ,currentOperationTextElement)
 
