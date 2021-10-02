@@ -1,57 +1,21 @@
 
 
+class Calculator{
 
-const numbersChoice = document.querySelectorAll('[data-number]')
+constructor(previousOperation,currentOperation){
 
-const operationsChoice = document.querySelectorAll('[data-opertation]')
-
-const equalsChoice = document.querySelector('[data-equals]')
-
-const deleteChoice = document.querySelector('[data-equals]')
-
-const clearChoice = document.querySelector('[data-clear-op]')
-
-const previousChoice = document.querySelector('[data-previous-op]')
-
-const currentChoice = document.querySelector('[data-current-op]')
-
-
-
-class cal{constructor(previousChoice, currentChoice){
-
-this.previousChoice = previousChoice;
-this.currentChoice = currentChoice;
+this.previousOperation = previousOperation;
+this.currentOperation = currentOperation;
 this.clear();
 
-
-
-}
-
-const calculator = new cal(previousChoice, currentChoice)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    }
 
 clear(){
 
-    this.currentOp = ''
-    this.previousOP = ''
-    this.operation = undefined
+    this.current = '';
+    this.previous = '';
+    this.operation = undefined;
 
-
-    const calculator = new cal(previousChoice, currentChoice)
 }
 
 delete(){
@@ -60,36 +24,29 @@ delete(){
 
 }
 
-append(number){
+addNumber(number){
 
+this.current = number;
 
-if(number === '.' && this.currentOp.includes('.'))
+}
 
-return
-this.currentOp = this.currentOp.toString() + number.toString()
-
-
+pickOperation(operation){
 
 
 
 
 }
 
-chooseOp(){
+calculate(){
+
+
 
 
 }
-
-
-compute(){
-
-
-}
-
 
 refreshDisplay(){
 
-    this.currentChoice.innerText = this.currentOp
+this.currentOperation.innerText = this.current
 
 }
 
@@ -97,12 +54,28 @@ refreshDisplay(){
 }
 
 
-numbersChoice.forEach(button => {
-    button.addEventListener('click' , () => {
-    cal.append(button.innerText)
+
+
+
+const numbersButton = document.querySelectorAll('[data-number]')
+
+const operationsButton = document.querySelectorAll('[data-opertation]')
+
+const equalsButton = document.querySelector('[data-equals]')
+
+const deleteButton = document.querySelector('[data-delete]')
+
+const clearButton = document.querySelector('[data-clear]')
+
+const previousOperation = document.querySelector('[data-previous]')
+
+const currentOperation = document.querySelector('[data-current]')
+
+const cal = new Calculator(previousOperation , currentOperation)
+
+numbersButton.forEach(button =>{
+    button.addEventListener('click' , () =>)
+    cal.addNumber(button.innerText)
     cal.refreshDisplay()
-
-    })
 })
-
 
