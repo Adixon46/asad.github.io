@@ -5,7 +5,7 @@ class Calculator{
 constructor(previousOperation,currentOperation){
 
 this.previousOperation = previousOperation
-this.currentOperation = currentOperation
+this.currentOperation = 1
 this.clear()
 
     }
