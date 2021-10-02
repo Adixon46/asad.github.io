@@ -2,17 +2,17 @@
 
 class Calculator{
 
-constructor(previousOperationTextElement,currentOperationTextElement){
+constructor(previousOperation,currentOperation){
 
-this.previousOperationTextElement = previousOperationTextElement
-this.currentOperationTextElement = currentOperationTextElement
+this.previousOperation = previousOperation
+this.currentOperation = currentOperation
 this.clear()
 
     }
 
 clear(){
 
-    this.currentOperation = ''
+    this.current1 = ''
     this.previous1 = ''
     this.operation1 = undefined
 
@@ -46,7 +46,7 @@ calculate(){
 
 refreshDisplay(){
 
-this.currentOperationTextElement.innerText = this.currentOperation
+this.currentOperation.innerText = this.current1
 
 }
 
@@ -67,11 +67,11 @@ const deleteButton = document.querySelector('[data-delete]')
 
 const clearButton = document.querySelector('[data-clear]')
 
-const previousOperationTextElement = document.querySelector('[data-previous]')
+const previousOperation = document.querySelector('[data-previous]')
 
-const currentOperationTextElement = document.querySelector('[data-current]')
+const currentOperation = document.querySelector('[data-current]')
 
-const cal = new Calculator(previousOperationTextElement ,currentOperationTextElement)
+const cal = new Calculator(previousOperation ,currentOperation)
 
 numbersButton.forEach(button =>{
     button.addEventListener('click' , () =>{
