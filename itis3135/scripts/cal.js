@@ -144,6 +144,6 @@ cal.refreshDisplay()
 clearButton.addEventListener('click' , button =>{
 
 cal.clear()
-
+refreshDisplay()
 
 })
