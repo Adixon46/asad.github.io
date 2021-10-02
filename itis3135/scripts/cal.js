@@ -78,7 +78,7 @@ default:
 this.current = comp
 this.operation = undefined 
 this.previous = ''
-
+this.clear()
 
 
 }
@@ -88,6 +88,7 @@ refreshDisplay(){
 
 this.currentOperation.innerText = this.current
 this.previousOperation.innerText = this.previous
+
 }
 
 
