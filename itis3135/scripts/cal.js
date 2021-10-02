@@ -1,96 +1,96 @@
 
-class Calculator{
+class Calculator {
 
-constructor(previousOperation,currentOperation){
+    constructor(previousOperation, currentOperation) {
 
-this.previousOperation = previousOperation
-this.currentOperation = currentOperation
-this.clear()
+        this.previousOperation = previousOperation
+        this.currentOperation = currentOperation
+        this.clear()
 
     }
 
-clear(){
+    clear() {
 
-    this.current = ''
-    this.previous = ''
-    this.operation = undefined
+        this.current = ''
+        this.previous = ''
+        this.operation = undefined
 
-}
+    }
 
- delete(){
+    delete() {
 
-    this.current = this.current.toString().slice(0 , -1)
-
-
-}
-
-addNumber(number){
-if(number ==='.' && this.current.includes('.'))return
-this.current = this.current.toString() + number.toString()
-console.log(this.current)
-
-}
-
-pickOperation(operation){
-if(this.currentOperation === '') return
-if(this.previousOperation !== ''){
-
-   this.calculate()
-
-}
-    this.operation = operation
-    this.previous = this.current
-    this.current = ''
+        this.current = this.current.toString().slice(0, -1)
 
 
-}
+    }
 
-calculate(){
+    addNumber(number) {
+        if (number === '.' && this.current.includes('.')) return
+        this.current = this.current.toString() + number.toString()
+        console.log(this.current)
 
-let comp
-const prev = parseFloat(this.previous)
-const curr = parseFloat(this.current)
+    }
 
-if(isNaN(prev) || isNaN(curr))return
+    pickOperation(operation) {
+        if (this.currentOperation === '') return
+        if (this.previousOperation !== '') {
 
-switch(this.operation){
+            this.calculate()
 
-case '+':
-    comp = prev + curr;
-    break
-
-case '-': 
-    comp = prev - curr
-    break
-
-    case '*': 
-    comp = prev * curr
-    break
-
-case '÷': 
-    comp = prev / curr
-    break
-    
-default:
-     return
-  
-}
-
-this.current = comp
-this.operation = undefined 
-this.previous = ''
+        }
+        this.operation = operation
+        this.previous = this.current
+        this.current = ''
 
 
+    }
 
-}
+    calculate() {
 
-refreshDisplay(){
+        let comp
+        const prev = parseFloat(this.previous)
+        const curr = parseFloat(this.current)
+
+        if (isNaN(prev) || isNaN(curr)) return
+
+        switch (this.operation) {
+
+            case '+':
+                comp = prev + curr;
+                break
+
+            case '-':
+                comp = prev - curr
+                break
+
+            case '*':
+                comp = prev * curr
+                break
+
+            case '÷':
+                comp = prev / curr
+                break
+
+            default:
+                return
+
+        }
+
+        this.current = comp
+        this.operation = undefined
+        this.previous = ''
 
 
-this.currentOperation.innerText = this.current
-this.previousOperation.innerText = this.previous
 
-}
+    }
+
+    refreshDisplay() {
+
+
+        this.currentOperation.innerText = this.current
+        this.previousOperation.innerText = this.previous
+
+    }
 
 
 
@@ -115,44 +115,44 @@ const currentOperation = document.querySelector('[data-current-op]')
 
 
 
-const cal = new Calculator(previousOperation ,currentOperation)
+const cal = new Calculator(previousOperation, currentOperation)
 
-numbersButton.forEach(button =>{
-    button.addEventListener('click' , () =>{
-    cal.addNumber(button.innerText)
-    cal.refreshDisplay()
-
-    })
-})
-
-operationsButton.forEach(button =>{
-    button.addEventListener('click' , () =>{
-    cal.pickOperation(button.innerText)
-    cal.refreshDisplay()
+numbersButton.forEach(button => {
+    button.addEventListener('click', () => {
+        cal.addNumber(button.innerText)
+        cal.refreshDisplay()
 
     })
 })
 
-equalsButton.addEventListener('click' , button => {
+operationsButton.forEach(button => {
+    button.addEventListener('click', () => {
+        cal.pickOperation(button.innerText)
+        cal.refreshDisplay()
 
-cal.calculate()
-cal.refreshDisplay()
+    })
+})
+
+equalsButton.addEventListener('click', button => {
+
+    cal.calculate()
+    cal.refreshDisplay()
 
 
 })
 
 
-clearButton.addEventListener('click' , button =>{
+clearButton.addEventListener('click', button => {
 
-cal.clear()
-cal.refreshDisplay()
+    cal.clear()
+    cal.refreshDisplay()
 
 })
 
-deleteButton.addEventListener('click' , button =>{
+deleteButton.addEventListener('click', button => {
 
-cal.delete()
-cal.refreshDisplay()
+    cal.delete()
+    cal.refreshDisplay()
 
 
 
