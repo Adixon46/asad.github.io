@@ -17,7 +17,7 @@ clear(){
 
 }
 
-delete(){
+ delete(){
 
     this.current = this.current.toString().slice(0 , -1)
 
