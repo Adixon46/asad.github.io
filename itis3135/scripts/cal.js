@@ -34,7 +34,7 @@ pickOperation(operation){
 if(this.currentOperation === '') return
 if(this.previousOperation !== ''){
 
-   calculate()
+   this.calculate()
 
 }
     this.operation = operation
