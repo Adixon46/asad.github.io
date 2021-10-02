@@ -1,18 +1,4 @@
 
-const numbersButton = document.querySelectorAll('[data-number]')
-
-const operationsButton = document.querySelectorAll('[data-opertation]')
-
-const equalsButton = document.querySelector('[data-equals]')
-
-const deleteButton = document.querySelector('[data-delete]')
-
-const clearButton = document.querySelector('[data-clear]')
-
-const previousOperation = document.querySelector('[data-previous-op]')
-
-const currentOperation = document.querySelector('[data-current-op]')
-
 class Calculator{
 
 constructor(previousOperation,currentOperation){
@@ -39,7 +25,7 @@ delete(){
 
 addNumber(number){
 
-this.current = number
+this.current = this.current.toString() + number.toString()
 console.log(this.current)
 
 }
@@ -67,11 +53,22 @@ this.currentOperation.innerText = this.current
 
 
 
-
-
 }
 
 
+const numbersButton = document.querySelectorAll('[data-number]')
+
+const operationsButton = document.querySelectorAll('[data-opertation]')
+
+const equalsButton = document.querySelector('[data-equals]')
+
+const deleteButton = document.querySelector('[data-delete]')
+
+const clearButton = document.querySelector('[data-clear]')
+
+const previousOperation = document.querySelector('[data-previous-op]')
+
+const currentOperation = document.querySelector('[data-current-op]')
 
 
 
