@@ -12,9 +12,9 @@ this.clear();
 
 clear(){
 
-    this.current = '';
-    this.previous = '';
-    this.operation = undefined;
+    this.current1 = '';
+    this.previous1 = '';
+    this.operation1 = undefined;
 
 }
 
@@ -46,7 +46,7 @@ calculate(){
 
 refreshDisplay(){
 
-this.currentOperationTextElement.innerText = this.current
+this.currentOperationTextElement.innerText = this.current1
 
 }
 
@@ -71,7 +71,7 @@ const previousOperation = document.querySelector('[data-previous]')
 
 const currentOperation = document.querySelector('[data-current]')
 
-const cal = new Calculator(previousOperation , currentOperation)
+const cal = new Calculator(previousOperationTextElement , currentOperationTextElement)
 
 numbersButton.forEach(button =>{
     button.addEventListener('click' , () =>{
