@@ -12,7 +12,7 @@ this.clear()
 
 clear(){
 
-    this.current1 = ''
+    this.currentOperation = ''
     this.previous1 = ''
     this.operation1 = undefined
 
@@ -46,7 +46,7 @@ calculate(){
 
 refreshDisplay(){
 
-this.currentOperationTextElement.innerText = this.current1
+this.currentOperationTextElement.innerText = this.currentOperation
 
 }
 
