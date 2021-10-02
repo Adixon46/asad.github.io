@@ -38,8 +38,8 @@ if(this.currentOperation === '') return
 
 //}
     this.operation = operation
-    //this.previous = this.current
-    //this.current = ''
+    this.previous = this.current
+    this.current = ''
 
 
 }
