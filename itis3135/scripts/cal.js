@@ -47,7 +47,7 @@ calculate(){
 
 refreshDisplay(){
 
-this.current.innerText = this.current.toString()
+this.current.innerText = this.currentOperation
 }
 
 
