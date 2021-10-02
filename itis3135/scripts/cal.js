@@ -6,7 +6,7 @@ constructor(previousOperation,currentOperation){
 
 this.previousOperation = previousOperation
 this.currentOperation = currentOperation
-
+this.clear()
 
     }
 
