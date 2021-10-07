@@ -3,14 +3,14 @@ let person  = [];
 let salaries = [];
 
 
-addSalary(){
+function addSalary(){
 
     document.getElementById("demo").innerHTML = "Hello World";
 console.log("demo");
 }
 
 
-displayResults(){
+function displayResults(){
 
 
 
@@ -18,7 +18,7 @@ displayResults(){
 }
 
 
-displaySalary(){
+function displaySalary(){
 
 
 
