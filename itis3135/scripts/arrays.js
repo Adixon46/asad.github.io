@@ -5,7 +5,7 @@ let salaries = [];
 
 function addSalary(){
 
-    document.getElementById("test").innerHTML = "Hello World";
+    document.getElementById("add").innerHTML = "Hello World";
 
 
 }
@@ -14,14 +14,14 @@ function addSalary(){
 function displayResults(){
 
 
-
+    document.getElementById("displayR").innerHTML = "Hello World";
 
 }
 
 
 function displaySalary(){
 
-
+    document.getElementById("displayS").innerHTML = "Hello World";
 
 
 }
