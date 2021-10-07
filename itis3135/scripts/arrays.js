@@ -5,7 +5,7 @@ let salaries = [];
 
 function addSalary(){
 
-   prompt("whats up")
+   document.getElementById("add").innerHTML("this is a test")
 
 
 }
