@@ -5,8 +5,8 @@ let salaries = [];
 
 function addSalary(){
 
-    document.getElementById("demo").innerHTML = "Hello World";
-console.log("demo");
+    document.getElementById("cool").innerHTML = "Hello World";
+console.log("cool");
 }
 
 
