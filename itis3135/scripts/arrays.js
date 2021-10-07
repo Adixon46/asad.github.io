@@ -5,7 +5,7 @@ let salaries = [];
 
 function addSalary(){
 
-  
+   document.getElementById("test").innerHTML("this is a test")
 
 
 }
