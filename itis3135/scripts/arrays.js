@@ -6,7 +6,9 @@ let salaries = [];
 function addSalary(){
 
     document.getElementById("cool").innerHTML = "Hello World";
-console.log("cool");
+
+prompt("What is your name")
+
 }
 
 
