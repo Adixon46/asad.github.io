@@ -1,7 +1,7 @@
 
 let person  = [];
 let salaries = [];
-var count =0;
+
 
 function addSalary(){
 
@@ -13,14 +13,13 @@ function addSalary(){
 console.log(person)
 console.log(salaries)
 
-for(var i = 0; i <person.length  ; i++){
+
     var select = document.getElementById("sel");
     var option = document.createElement("option")
-    option.text = person[count];
+    option.text = person[person.length -1];
     select.add(option)
 
-count++;
-}
+
 
 }
 
