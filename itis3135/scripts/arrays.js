@@ -12,7 +12,7 @@ console.log(person)
 console.log(salaries)
 
 var select = document.getElementById("sel");
-for(var i = 0; i < person.length; i++){
+for(var i = 0; i < person; i++){
 var option = document.createElement("option")
 
 option.text = option.value = person[i];
