@@ -13,16 +13,15 @@ function addSalary(){
 console.log(person)
 console.log(salaries)
 
-for(var i = 0; i < person.length; i++){
+for(var i = 0; i <person.length  ; i++){
 
+
+count++;
+}
 var select = document.getElementById("sel");
   var option = document.createElement("option")
   option.text = person[count];
   select.add(option)
-
-count++;
-}
-
 }
 
 
