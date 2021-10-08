@@ -15,7 +15,7 @@ console.log(salaries)
 
 var select = document.getElementById("sel");
 var option = document.createElement("option")
-option.text = person[lenght -1];
+option.text = person[lenght];
 select.add(option)
 
 
