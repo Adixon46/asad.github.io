@@ -2,7 +2,7 @@
 let person  = [];
 let salaries = [];
 
-var table = document.getElementById("results_table");
+
 function addSalary(){
 
     person.push(prompt("Enter employees name"))
@@ -30,24 +30,24 @@ function displaySalary(){
 
 //document.getElementById("money").innerHTML = salaries;
    
+var table = document.getElementById("results_table");
 
-
-for(var i = 0; i < results_table.rows.length; i++)
+for(var i = 0; i < table.rows.length; i++)
 {
 
+    
 
 
-
-results_table.rows.innerHTML = person[i];
+table.innerHTML = person[i];
 
 }
 
 
-    for(var j = 0; j < results_table.rows.length; j++)
+    for(var j = 0; j < table.length; j++)
 {
     
     
-    results_table.rows.innerHTML = salaries[j];
+    table.innerHTML = salaries[j];
 }
     
 } 
