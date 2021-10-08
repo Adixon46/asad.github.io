@@ -8,13 +8,7 @@ width: 20m;
 
 }
 
-table
-{
 
-  
-width: 500;
-
-}
 
 table,th,td
 {
@@ -26,5 +20,5 @@ table,th,td
 th
 {
 
-    width: 500px;
+    width: 200px;
 }
