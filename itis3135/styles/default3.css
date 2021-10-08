@@ -8,10 +8,15 @@ width: 20m;
 
 }
 
-#results_table
+table
 {
 
   
 width: 500 px;
 
+}
+
+table,th,td
+{
+    border:  red;
 }
