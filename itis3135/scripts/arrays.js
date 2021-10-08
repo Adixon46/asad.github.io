@@ -7,7 +7,7 @@ function addSalary(){
 
     person.push(parseInt(prompt("Enter a salary")))
 
-
+console.log(person)
 }
 
 
