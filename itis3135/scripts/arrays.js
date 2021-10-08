@@ -15,8 +15,8 @@ var select = document.getElementById("sel");
 for(var i = 0; i < person.length; i++){
 var option = document.createElement("option")
 
-option.text = option.value = i;
-select.add(option , 0)
+option.text = option.value = person[i];
+select.add(option , person[i])
 }
 }
 
