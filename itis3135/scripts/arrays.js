@@ -16,9 +16,23 @@ console.log(salaries)
 
 function displayResults(){
 
-document.getElementById("name").innerHTML = person;
 
-document.getElementById("money").innerHTML = salaries;
+  for(var i = 0; i < person.length; i++){
+
+    person[i]
+
+  }  
+
+
+  for(var i = 0; i < salaries.length; i++){
+
+    salaries[i]
+
+  }  
+
+document.getElementById("name").innerHTML = person[i];
+
+document.getElementById("money").innerHTML = salaries[i];
     
 
 {
