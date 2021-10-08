@@ -28,8 +28,10 @@ function displaySalary(){
 
     document.getElementById("name").innerHTML = person;
 
-document.getElementById("money").innerHTML = salaries;
+    document.getElementById("money").innerHTML = salaries;
    
 
     
 } 
+
+
