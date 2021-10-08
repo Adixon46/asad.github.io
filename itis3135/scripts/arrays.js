@@ -41,7 +41,7 @@ function displaySalary(){
 
   var select = document.getElementById("sel");
   var option = document.createElement("option")
-  option.text = person[person.lastIndexOf];
+  option.text = person[person.push];
   select.add(option)
   
 } 
