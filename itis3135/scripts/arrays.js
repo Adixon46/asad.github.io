@@ -1,22 +1,27 @@
 
 let person  = [];
 let salaries = [];
-
+var count =0;
 
 function addSalary(){
 
+    
    person.push(prompt("Enter employees name"))
+
     salaries.push(parseInt(prompt("Enter a salary")))
     
 console.log(person)
 console.log(salaries)
 
+for(var i = 0; i < person.length; i++){
 
+var select = document.getElementById("sel");
+  var option = document.createElement("option")
+  option.text = person[count];
+  select.add(option)
 
-
-
-
-
+count++;
+}
 
 }
 
@@ -39,10 +44,7 @@ function displaySalary(){
   var paper = document.getElementById("money").innerHTML = salaries;
    
 
-  var select = document.getElementById("sel");
-  var option = document.createElement("option")
-  option.text = person[person.push];
-  select.add(option)
+  
   
 } 
 
