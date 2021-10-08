@@ -2,7 +2,7 @@
 let person  = [];
 let salaries = [];
 
-
+var table = document.getElementById("results_table");
 function addSalary(){
 
     person.push(prompt("Enter employees name"))
@@ -30,7 +30,7 @@ function displaySalary(){
 
 document.getElementById("money").innerHTML = salaries;
    
-var table = document.getElementById("results_table");
+
 
 for(var i = 0; i < results_table.rows.length; i++)
 {
