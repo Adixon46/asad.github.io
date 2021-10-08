@@ -11,15 +11,14 @@ function addSalary(){
 console.log(person)
 console.log(salaries)
 
-for(var i =0; i < person.length; i++){
+
 
 var select = document.getElementById("sel");
 var option = document.createElement("option")
-option.text = person[i];
+option.text = person[lenght -1];
 select.add(option)
 
 
-}
 
 
 
