@@ -5,9 +5,12 @@ let salaries = [];
 
 function addSalary(){
 
-    person.push(parseInt(prompt("Enter a salary")))
-
+    person.push(prompt("Enter employees name"))
+    salaries.push(parseInt(prompt("Enter a salary")))
+    
 console.log(person)
+console.log(salaries)
+
 }
 
 
