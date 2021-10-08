@@ -19,4 +19,5 @@ width: 500 px;
 table,th,td
 {
     border: 1px black;
+    color: red;
 }
