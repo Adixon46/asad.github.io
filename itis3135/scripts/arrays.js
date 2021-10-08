@@ -5,7 +5,7 @@ let salaries = [];
 
 function addSalary(){
 
-    document.getElementById("add").innerHTML = "Hello World";
+    person.push(parseInt(prompt("Enter a salary")))
 
 
 }
@@ -14,7 +14,7 @@ function addSalary(){
 function displayResults(){
 
 
-    document.getElementById("displayR").innerHTML = "Hello World";
+    
 
 }
 
