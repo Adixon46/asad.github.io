@@ -5,7 +5,7 @@ let salaries = [];
 
 function addSalary(){
 
-    var next = person.push(prompt("Enter employees name"))
+    person.push(prompt("Enter employees name"))
     //salaries.push(parseInt(prompt("Enter a salary")))
     
 console.log(person)
@@ -13,7 +13,7 @@ console.log(salaries)
 
 var select = document.getElementById("sel");
 var option = document.createElement("option")
-option.text = next;
+option.text = "fish";
 select.add(option)
 
 
