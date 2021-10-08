@@ -11,8 +11,11 @@ function addSalary(){
 console.log(person)
 console.log(salaries)
 
-document.getElementById("sel").innerHTML = person;
 
+for(var i = 0; i < person.length; i++){
+
+document.getElementById("sel").innerHTML = person[i];
+}
 }
 
 
