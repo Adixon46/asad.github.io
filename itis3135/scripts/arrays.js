@@ -11,10 +11,12 @@ function addSalary(){
 console.log(person)
 console.log(salaries)
 
-
+var select = document.getElementById("sel");
 for(var i = 0; i < person.length; i++){
+var option = document.createElement("option")
 
-document.getElementById("sel").innerHTML = person[i];
+option.text = option.value = i;
+select.add(option , 0)
 }
 }
 
