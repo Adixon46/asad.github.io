@@ -17,27 +17,33 @@ console.log(salaries)
 function displayResults(){
 
 
-  for(var i = 0; i < person.length; i++){
-
-    person[i]
+  
 
   }  
 
+document.getElementById("name").innerHTML = person;
 
-  for(var i = 0; i < salaries.length; i++){
+document.getElementById("money").innerHTML = salaries;
+   
+var table = document.getElementById("results_table");
 
-    salaries[i]
-
-  }  
-
-document.getElementById("name").innerHTML = person[i];
-
-document.getElementById("money").innerHTML = salaries[i];
-    
+for(var i = 0; i < results_table.rows.length; i++)
 
 {
 
+results_table.rows.innerHTML = person[i];
 
+
+{
+
+    for(var j = 0; j < results_table.rows.length; j++)
+
+    {
+    
+    results_table.rows.innerHTML = salaries[j];
+    
+    
+    {
 
 }
 }
