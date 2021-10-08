@@ -16,7 +16,7 @@ console.log(salaries)
 
 function displayResults(){
 
-document.getElementById("results_table").innerHTML = addSalary();
+document.getElementById("results_table").innerHTML = person;
 
     
 
