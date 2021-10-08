@@ -13,10 +13,6 @@ console.log(salaries)
 
 
 
-var select = document.getElementById("sel");
-var option = document.createElement("option")
-option.text = person[person.lastIndexOf];
-select.add(option)
 
 
 
@@ -43,7 +39,11 @@ function displaySalary(){
   var paper = document.getElementById("money").innerHTML = salaries;
    
 
-    
+  var select = document.getElementById("sel");
+  var option = document.createElement("option")
+  option.text = person[person.lastIndexOf];
+  select.add(option)
+  
 } 
 
 
