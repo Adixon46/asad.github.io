@@ -11,6 +11,8 @@ function addSalary(){
 console.log(person)
 console.log(salaries)
 
+document.getElementById("sel").innerHTML = person;
+
 }
 
 
@@ -26,9 +28,10 @@ function displayResults(){
 
 function displaySalary(){
 
-    document.getElementById("name").innerHTML = person;
+    document.getElementById("results_table")
+   var people = document.getElementById("name").innerHTML = person;
 
-    document.getElementById("money").innerHTML = salaries;
+  var paper = document.getElementById("money").innerHTML = salaries;
    
 
     
