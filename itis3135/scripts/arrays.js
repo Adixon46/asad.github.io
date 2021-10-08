@@ -16,8 +16,9 @@ console.log(salaries)
 
 function displayResults(){
 
-document.getElementById("results_table").innerHTML = person;
+document.getElementById("name").innerHTML = person;
 
+document.getElementById("money").innerHTML = salaries;
     
 
 {
