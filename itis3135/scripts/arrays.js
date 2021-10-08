@@ -10,8 +10,8 @@ function addSalary(){
 
     var money = salaries.push
 
-    money.getElementById("sal")
-    people.getElementById("per")
+    person.getElementById("sal")
+    salaries.getElementById("per")
     
 console.log(person)
 console.log(salaries)
