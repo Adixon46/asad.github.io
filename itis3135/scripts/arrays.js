@@ -6,13 +6,14 @@ let salaries = [];
 function addSalary(){
 
     
-   var people = person.push
+   var people = document.getElementById("per").value;
 
-    var money = salaries.push
+person.push(people);
 
-    person.getElementById("sal")
-    salaries.getElementById("per")
-    
+var money = document.getElementById("sal").value;
+salaries.push(money)
+
+   
 console.log(person)
 console.log(salaries)
 
