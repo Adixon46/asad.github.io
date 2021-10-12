@@ -81,19 +81,7 @@ document.getElementById("p1").innerHTML = avg;
 for(var i = 0; i < salaries.length; i++)
 {
 
- max = salaries[i];
- min = salaries[i+1];
- 
- if(max < min)
- {
-
- max = min
-
- }
-else if(min < max)
-{
-
-max = max
+ var max = Math.max(salaries[i])
 
 }
 
