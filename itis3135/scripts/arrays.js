@@ -1,53 +1,138 @@
 
-let person  = [];
+let person = [];
 let salaries = [];
 
 
-function addSalary(){
+function addSalary() {
 
+  cursor()
+  
+
+  var money = document.getElementById("sal").value;
+  
+
+  if(money !== "")
+  {
+  salaries.push(money)
+  
+  }
+else if(money === "")
+{
+
+  alert("Enter a new value")
+
+}
+
+var people = document.getElementById("per").value;
+  if (people !== "" && money !== "" ) 
+  {
+
+
+    person.push(people);
+
+  }
+  else if(people === "" ){
+
+    alert("Enter a new value")
     
-   var people = document.getElementById("per").value;
-
-person.push(people);
-
-var money = document.getElementById("sal").value;
-salaries.push(money)
-
-   
-console.log(person)
-console.log(salaries)
+  }
 
 
-    var select = document.getElementById("sel");
-    var option = document.createElement("option")
-    option.text = person[person.length -1];
-    select.add(option)
 
 
+  console.log(person)
+  console.log(salaries)
+
+
+  var select = document.getElementById("sel");
+  var option = document.createElement("option")
+  option.text = person[person.length - 1];
+  select.add(option)
+
+  
+  }
+
+
+
+function displayResults() {
+
+  let count = 0;
+  let total = 0;
+  let max = 0;
+for(var i = 0; i < salaries.length; i++)
+{
+
+if(salaries[i] !== undefined)
+{
+count++;
+
+total += parseInt(salaries[i]) ;
 
 }
 
 
-function displayResults(){
+
+let avg = total /count;
+console.log(avg)
+
+document.getElementById("p1").innerHTML = avg;
+}
+
+for(var i = 0; i < salaries.length; i++)
+{
+
+ max = salaries[i];
+ min = salaries[i+1];
+ 
+ if(max < min)
+ {
+
+ max = min
+
+ }
+else if(min < max)
+{
+
+max = max
+
+}
+
+ document.getElementById("p2").innerHTML = max;
+
+}
 
 
-  
+ 
 
-  }  
-
-
+}
 
 
-function displaySalary(){
+function displaySalary()
+{
 
-    document.getElementById("results_table")
-   var people = document.getElementById("name").innerHTML = person;
 
-  var paper = document.getElementById("money").innerHTML = salaries;
-   
 
-  
-  
-} 
+  var display = "<tr><td> <h2> table </h2> </td></tr> <tr><td> person </td><td> salaries </td></tr>";
 
+  for (var i = 0; i < person.length; i++) {
+
+    display += "<tr><td>" + person[i] + "</td><td>" + salaries[i] + "</td></tr>"
+
+  }
+
+  document.getElementById("results_table").innerHTML = display
+
+}
+
+function cursor()
+{
+
+var input = document.getElementById("sel")
+{
+
+input.focus();
+
+}
+
+}
 
