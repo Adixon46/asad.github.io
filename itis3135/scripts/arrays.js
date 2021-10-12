@@ -3,7 +3,9 @@ let person = [];
 let salaries = [];
 
 
-function addSalary() {
+function addSalary() 
+{
+
 
   cursor()
   
@@ -78,21 +80,21 @@ console.log(avg)
 document.getElementById("p1").innerHTML = avg;
 }
 
-for(var i = 0; i < salaries.length; i++)
-{
 
- var max = Math.max(salaries[i])
+ var maxout = Math.max(...salaries)
 
-}
+ console.log(salaries)
 
- document.getElementById("p2").innerHTML = max;
+
+ document.getElementById("p2").innerHTML =maxout;
 
 }
 
 
  
 
-}
+
+
 
 
 function displaySalary()
