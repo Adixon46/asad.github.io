@@ -1,4 +1,4 @@
-
+window.onload = cursor()
 let person = [];
 let salaries = [];
 
@@ -112,17 +112,25 @@ function displaySalary()
 
   document.getElementById("results_table").innerHTML = display
 
+  var select = document.getElementById("sal");
+  var option = document.createElement("per")
+
+  cursor()
+
+select ="";
+option ="";
+
 }
 
 function cursor()
 {
 
-var input = document.getElementById("sel")
-{
+var input = document.getElementById("per")
+
 
 input.focus();
 
-}
+
 
 }
 
