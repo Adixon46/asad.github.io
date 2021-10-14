@@ -112,13 +112,12 @@ function displaySalary()
 
   document.getElementById("results_table").innerHTML = display
 
-  var select = document.getElementById("sal");
-  var option = document.createElement("per")
+  
 
   cursor()
 
-select ="";
-option ="";
+
+
 
 }
 
