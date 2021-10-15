@@ -45,7 +45,7 @@ th {
   text-align: left;
   background-color:#262626;
  
-  color:black;
+  color:powderblue;
 }
 
 table.center {
@@ -92,3 +92,9 @@ abbr {
   cursor: pointer;
 }
 
+img
+{
+width: 75%;
+height: 100px;
+
+}
