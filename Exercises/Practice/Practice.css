@@ -57,7 +57,34 @@ input {
 }
 /* add styling for buttons on homepage */
 
+#place_order
+{
+
+background-color: navy;
+color: seashell;
+height: 75px;
+}
+
+#clear_order
+{
+
+background-color: navy;
+color: seashell;
+height: 75px;
+}
+
+#contact_us
+{
+
+	background-color: navy;
+	color: seashell;	
+	height: 75px;
+}
 
 
+#total
+{
 
-
+font-style: italic;
+color: blue;
+}
