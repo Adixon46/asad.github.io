@@ -72,7 +72,29 @@
         </tr>
       </tbody>
     </table>
-    <!--Add the form here-->
+
+
+    <h3>Enter your name and phone number to win a gift!</h3>
+
+    <form action="#">
+      <div id="nameField">
+        <label for="name">Name: </label><br>
+        <input type="text" id="name" name="name" aria-required="true">
+      </div>
+      <div id="phoneField">
+        <label for="Phone">Phone number: </label><br>
+        <input type="tel" id="Phone" name="Phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" aria-required="true">
+      </div>
+
+      <div>
+        <button type="submit">Submit</button>
+      </div>
+
+
+
+
+    </form>
+ 
 
 
     <div class="whitespace"></div>
@@ -81,9 +103,20 @@
 
     <a href="https://dequeuniversity.com/rules/axe/3.2/color-contrast"> Find out if your font
       color and background color passes WCAG standard!</a>
+
+     
   </main>
 
   <footer>
+
+  	<a  href="https://validator.w3.org/check?uri=referer">
+			<img id = "html" src="images/button-valid-html5.gif"  alt="Link to HTML validator"></a>
+
+		<a  href="https://jigsaw.w3.org/css-validator/check/referer">
+			<img id="css"  src="images/button-valid-css.gif"  alt="Link to CSS validator"></a>
+
+
+
 
   </footer>
 </body>

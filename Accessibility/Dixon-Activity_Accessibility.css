@@ -64,11 +64,11 @@ form {
 
 /* footer bottom of page*/
 footer {
-  position: absolute;
+
   bottom: 0;
   right: 0;
   padding-right: 70px;
- 
+
 }
 
 abbr {
@@ -98,3 +98,45 @@ width: 75%;
 height: 100px;
 
 }
+
+h3
+{
+color: navy;
+
+
+}
+
+
+
+#nameField
+{
+
+text-align: left;
+
+}
+
+#phoneField
+{
+
+  text-align: left;
+
+}
+
+#html
+{
+
+  width: 30mm;
+  
+  height: 10mm;
+
+}
+
+
+#css
+{
+  width: 30mm;
+  
+  height: 10mm;
+
+}
+
